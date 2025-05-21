@@ -29,7 +29,7 @@
   "module": "./dist/esm/index.js",
   "scripts": {
     "start": "npm run dev",
-    "dev": "(cd ./example && vite --force)",
+    "dev": "(cd ./example && npx vite --force)",
     "build": "npm run clean && npm i && npm run build:esm && npm run build:copy-styles && npm run build:example && npm run build:docs",
     "build:esm": "tsc",
     "build:copy-styles": "cp -r ./src/style ./dist/esm",
@@ -62,6 +62,6 @@
     "typedoc": "latest",
     "typedoc-theme-category-nav": "latest",
     "typescript": "^5.3.2",
-    "vite": "^5.3.3"
+    "vite": "^5.4.19"
   }
 }
