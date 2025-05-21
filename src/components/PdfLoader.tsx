@@ -1,6 +1,6 @@
 import React, { ReactNode, useEffect, useRef, useState } from "react";
 
-import { GlobalWorkerOptions, OnProgressParameters, getDocument, type PDFDocumentLoadingTask, type PDFDocumentProxy } from "pdfjs-dist";
+import { GlobalWorkerOptions, OnProgressParameters, getDocument, type PDFDocumentLoadingTask, type PDFDocumentProxy } from "pdfjs-dist/legacy/build/pdf.mjs";
 import { DocumentInitParameters, TypedArray } from "pdfjs-dist/types/src/display/api";
 
 const DEFAULT_BEFORE_LOAD = (progress: OnProgressParameters) => (

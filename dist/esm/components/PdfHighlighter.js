@@ -16,7 +16,7 @@ import { TipContainer } from "./TipContainer";
 let EventBus, PDFLinkService, PDFViewer;
 (async () => {
     // Due to breaking changes in PDF.js 4.0.189. See issue #17228
-    const pdfjs = await import("pdfjs-dist/web/pdf_viewer.mjs");
+    const pdfjs = await import("pdfjs-dist/legacy/web/pdf_viewer.mjs");
     EventBus = pdfjs.EventBus;
     PDFLinkService = pdfjs.PDFLinkService;
     PDFViewer = pdfjs.PDFViewer;

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { GlobalWorkerOptions, getDocument } from "pdfjs-dist";
+import { GlobalWorkerOptions, getDocument } from "pdfjs-dist/legacy/build/pdf.mjs";
 const DEFAULT_BEFORE_LOAD = (progress) => (React.createElement("div", { style: { color: "black" } },
     "Loading ",
     Math.floor((progress.loaded / progress.total) * 100),

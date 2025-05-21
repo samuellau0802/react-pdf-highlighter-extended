@@ -1,7 +1,7 @@
 import "pdfjs-dist/web/pdf_viewer.css";
 import "../style/PdfHighlighter.css";
 import "../style/pdf_viewer.css";
-import { PDFDocumentProxy } from "pdfjs-dist";
+import { PDFDocumentProxy } from "pdfjs-dist/legacy/build/pdf.mjs";
 import React, { CSSProperties, ReactNode } from "react";
 import { PdfHighlighterUtils } from "../contexts/PdfHighlighterContext";
 import { GhostHighlight, Highlight, PdfScaleValue, PdfSelection } from "../types";

@@ -1,5 +1,5 @@
 import React, { ReactNode } from "react";
-import { OnProgressParameters, type PDFDocumentProxy } from "pdfjs-dist";
+import { OnProgressParameters, type PDFDocumentProxy } from "pdfjs-dist/legacy/build/pdf.mjs";
 import { DocumentInitParameters, TypedArray } from "pdfjs-dist/types/src/display/api";
 /**
  * The props type for {@link PdfLoader}.

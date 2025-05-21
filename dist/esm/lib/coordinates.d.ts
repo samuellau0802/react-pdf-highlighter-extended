@@ -1,6 +1,6 @@
 import { PDFViewer } from "pdfjs-dist/types/web/pdf_viewer";
 import type { LTWHP, ViewportPosition, Scaled, ScaledPosition } from "../types";
-import { PageViewport } from "pdfjs-dist";
+import { PageViewport } from "pdfjs-dist/legacy/build/pdf.mjs";
 interface WIDTH_HEIGHT {
     width: number;
     height: number;
